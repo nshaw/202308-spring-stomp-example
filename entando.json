@@ -1,0 +1,15 @@
+{
+    "microservices": [
+        {
+            "name": "spring-stomp-ms",
+            "stack": "spring-boot",
+            "healthCheckPath": "/api/health"
+        }
+    ],
+    "microfrontends": [],
+    "svc": [],
+    "name": "stomp-example",
+    "version": "0.0.1",
+    "description": "stomp-example description",
+    "type": "bundle"
+}
