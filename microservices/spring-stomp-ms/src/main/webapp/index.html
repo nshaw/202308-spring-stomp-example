@@ -15,7 +15,9 @@
             }
             
             function connect() {
-                var socket = new SockJS('http://localhost:8080/chat');
+                //Note: replace the URL with your server location
+                var serverUrl = 'http://localhost:8081/chat';
+                var socket = new SockJS(serverUrl);
                 stompClient = Stomp.over(socket);  
                 stompClient.connect({}, function(frame) {
                     setConnected(true);
