@@ -9,7 +9,7 @@
     "microfrontends": [],
     "svc": [],
     "name": "stomp-example",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "stomp-example description",
     "type": "bundle"
 }
